@@ -117,7 +117,7 @@
 .rightContainer .middle form div div{
     flex:1;
 }
-    /* RIGHT SIDE LOWER */
+    /* RIGHT SIDE BOTTOM */
 
 .rightContainer .bottom{
     padding-top: 20px;
@@ -136,6 +136,16 @@ button:hover{
     transition: color 1s ease-in-out;
     color: white;
 }
+.bottom p{
+    padding-top: 10px;
+    color: #7e7e7f; 
+}
+p a{
+    color: #909fc8;
+    font-style: bold;
+    display: inline;
+}
+
 
 /* FOOTER */
 footer{
@@ -164,21 +174,16 @@ input{
     height: 25px;
 }
 label{
-    padding-right: 5px;
+    padding-right: 8px;
     float: left;
-    height: 20px;
-    margin: 0px;
-    border: 0px;
-    font-size: 1.5vmin;
-    font-weight: 500;
     color: #24282d;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: row;
-    padding-top: 3px;
-
+    padding-top: 6px;
 }
-label img{
- height: 30px;
- width: 30px;
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  
 }
