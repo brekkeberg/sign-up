@@ -1,0 +1,48 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    height="100"
+    width="100"
+    viewBox="0 0 100 100" 
+>
+
+
+<g id="logo">
+    <polygon 
+        points="50 15, 100 100, 0 100"
+        fill="#fbe3b9"
+    
+    />
+    <rect
+        fill="#fbe3b9"
+        x="0"
+        y="0"
+        width="100%"
+        height= "100%"
+    />
+    <rect
+        fill="#c6b7c8"
+        x="0"
+        y="7"
+        width="100%"
+        height= "100%"
+    />
+        <rect
+        fill="#a7a2bf"
+        x="0"
+        y="25"
+        width="100%"
+        height= "100%"
+    />
+        <rect
+        fill="#909fc8"
+        x="0"
+        y="50"
+        width="100%"
+        height= "100%"
+    />
+</g>
+</svg>
+
+
+
+
