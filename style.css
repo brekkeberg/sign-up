@@ -2,14 +2,14 @@
     padding: 0px;
     margin: 0px;
     border: 0px;
-    font-family: sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
+.main{
     display: flex;
     flex-direction: row;
 }
+/* LEFT SIDE */
 .leftContainer{
     height: 100vh;
     flex: 0 0 40%;
@@ -20,17 +20,69 @@ body{
     width: 100%;
     object-fit: cover;
     overflow: hidden;
+    box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.46);
 }
 .imageBanner{
     position: absolute;
     width: 100%;
     left: 0px; 
-    top: 25%;
-    background-color: rgba(57, 83, 99, 0.35);
+    top: 30%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgba(71, 71, 71, 0.50);
     font-size: 5vw;
-    padding-top: 2%;
-    padding-bottom: 2%;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imageBanner .logoContainer{
+    flex: 0 0 25%;
+    border-radius: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoContainer .logo{
+    
+    border-radius: 30%;
+    /*box-shadow: 1px 2px 2px 0px rgba(62, 62, 62, 0.4),
+                2px 5px 5px 0px rgba(62, 62, 62, 0.25),
+                -2px 0px 5px 0px rgba(62, 62, 62, 0.25); */
+    width: 50%;
+}
+.imageBanner p{
+    color: #f8f5e2;
+    font-weight: 300;
+    font-size: 3vw;
+    text-align: center;
+    letter-spacing: 2vw;
+}
+
+/* RIGHT SIDE */
+.rightContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rightContainer div{
+    height: 100%;
+    border: 1px solid black;
+}
+
+/* FOOTER */
+footer{
+    width: 100vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(0deg, rgba(169,169,169,1) 0%, rgba(200,200,200,1) 100%);
+    text-align: center;
+}
+a{
     color: white;
-    font-weight:300;
+}
+a:hover{
+    color: #909fc8;
 }
