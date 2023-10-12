@@ -78,15 +78,19 @@
     padding-top: 3vh;
     display: flex;
     flex-direction: column;
-    justify-content:end;
+    justify-content: end;
     gap: 3vh;
     padding-bottom: 2vh;
     color: #7e7e7f; 
 }
+
 .top header{
     font-size: 5vw;
     font-weight: 800;
     color: #32353a;
+}
+.top p{
+    width: 45vw;   
 }
     /* RIGHT SIDE MAIN */ 
 
@@ -170,10 +174,10 @@ input{
     margin: 0px;
     border: 0px;
     padding: 5px;
-    width: 180px;
+    width: 200px;
     border-radius: 5px;
     background-color: #f9fafb;
-    height: 25px;
+    height: 30px;
     color: #333948;
 }
 
