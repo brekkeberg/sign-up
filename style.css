@@ -100,22 +100,23 @@
 }
 .rightContainer .middle form{
     padding:0px;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    gap: 10vw;
+    gap: 7vw;
 }
-.formsLeft, .formsRight{
+form .formsLeft, .formsRight{
     padding: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: left;
-
 }
-.rightContainer .middle form div div{
-    flex:1;
+.formsLeft div,.formsRight div{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
     /* RIGHT SIDE BOTTOM */
 
@@ -129,6 +130,7 @@ button{
     border: 1px solid black;
     border-radius: 10px;
     transition: all .5s;
+    cursor: pointer;
 }
 button:hover{
     background-color: #909fc8;
@@ -172,6 +174,12 @@ input{
     border-radius: 5px;
     background-color: #f9fafb;
     height: 25px;
+    color: #333948;
+}
+
+input:hover,
+input:focus{
+    outline: 2px solid #333948;
 }
 label{
     padding-right: 8px;
@@ -180,10 +188,13 @@ label{
     padding-top: 6px;
 }
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-  
+    transform: scale(1.25);
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 48;
+    color: #333948;
 }
+
+
